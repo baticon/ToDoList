@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task list</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <main>
+    <h2>TO DO</h2>
+    <section class="task-list">
+      <div id="tasks">
+
+      </div>
+    </section>
+
+    <form id="new-task-form">
+      <div class="example_border">
+        <div>
+          <input class="newInput" type="text" id="new-task-input" placeholder="пример: купить хлеб ..." />
+        </div>
+      </div>
+      <div>
+        <input class="addButton" type="submit" id="new-task-submit" value="Добавить" />
+      </div>
+    </form>
+
+    <h2>DONE</h2>
+
+    <section class="done-task-list">
+      <div id="done-tasks">
+
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

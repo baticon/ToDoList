@@ -1,0 +1,168 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto";
+}
+
+main {
+  width: 754px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dedede;
+}
+
+.content {
+  display: flex;
+}
+
+.content .text {
+  border: none;
+  height: 19px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content input[type="text"] {
+  /* width: 100%; */
+  width: 650px;
+  margin-left: 1rem;
+}
+
+.done_content .text {
+  text-decoration-line: line-through;
+  border: none;
+  width: 600px;
+  height: 19px;
+  left: 108px;
+  top: 527px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: left;
+
+  color: #000000;
+
+  padding-left: 20px;
+}
+
+.done-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #dedede;
+}
+
+.save {
+  display: none;
+  width: 80px;
+  border: none;
+  color: #1c5ad2;
+  background-color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.delete {
+  padding-left: 20px;
+}
+
+.addButton {
+  width: 130px;
+  height: 45px;
+  left: 81px;
+  top: 380px;
+  color: white;
+
+  background: #f44336;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.actions {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.done_content .text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.example_border {
+  display: flex;
+  box-sizing: border-box;
+  width: 754px;
+  height: 75px;
+  left: 81px;
+  top: 284px;
+
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.newInput {
+  display: flex;
+  border: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #b6b6b6;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.task_box {
+  width: 100px;
+  height: 100px;
+  border-color: red;
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox:hover {
+  background-image: url(../check_icon.svg);
+}
